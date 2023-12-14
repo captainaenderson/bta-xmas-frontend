@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <div>
-        <h1 className="font-mono font-bold uppercase text-white text-2xl flex justify-center mt-20 mb-5">
+        <h1 className="font-mono font-bold uppercase text-white text-2xl flex text-center mt-20 mb-5">
           BTA wishes you happy holidays!
         </h1>
         <div className="flex justify-center items-center mt-5">

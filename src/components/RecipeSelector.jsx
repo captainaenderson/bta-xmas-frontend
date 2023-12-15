@@ -109,7 +109,7 @@ const RecipeSelector = () => {
             </h2>
             <ol>
               {selectedRecipe.anleitung.map((schritt, index) => (
-                <li className="text-white mt-5 font-mono text-sm" key={index}>
+                <li className="text-white mt-5 font-mono text-sm text-justify" key={index}>
                   {schritt}
                 </li>
               ))}

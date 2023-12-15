@@ -6,16 +6,16 @@
 /* GT-America-Mono Regular */
 @font-face {
   font-family: 'GT-America-Mono';
-  src: url('/fonts/GT-America-Mono-Regular.tff') format('tff');
+  src: url('/GT-America-Mono-Regular.woff') format('woff');
   font-weight: normal; /* 400 */
   font-style: normal;
 }
 
-/* GT-America-Mono Bold */
+/* GT-America-Mono Black */
 @font-face {
   font-family: 'GT-America-Mono';
-  src: url('/fonts/GT-America-Mono-Bold.tff') format('tff');
-  font-weight: bold; /* 700 */
+  src: url('/GT-America-Mono-Black.woff') format('woff');
+  font-weight: 900;
   font-style: normal;
 }
 

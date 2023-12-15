@@ -86,7 +86,7 @@ const RecipeSelector = () => {
       {selectedRecipe && (
         <div className="flex flex-col md:flex-row justify-center items-center mt-5 mb-10">
           <div className="md:w-1/2 md:mr-4">
-          <h2 className="text-xl font-mono font-bold text-white text-center uppercase mb-10">
+          <h2 className="text-2xl font-mono font-bold text-white text-center uppercase mb-10">
   {selectedRecipe.name}
   {selectedRecipe.description && ` - ${selectedRecipe.description}`}
 </h2>

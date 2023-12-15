@@ -12,11 +12,14 @@ function Home() {
             <p className="font-mono font-normal text-white text-center text-sm">
               and a fantastic start to 2024!
             </p>
-            <p className="font-mono font-normal text-white text-center text-sm mt-5">
-            We‘ve prepared three of our favourite Christmas cookies to cook, complete with a BTA playlist timed to perfection for you to bake to.
+            <p className="font-mono font-normal text-white text-center text-sm mt-5 max-w-2xl mx-auto px-4 lg:px-8">
+              We‘ve prepared three of our favourite Christmas cookies to cook,
+              complete with a BTA playlist timed to perfection for you to bake
+              to.
             </p>
+
             <p className="font-mono font-normal text-white text-center text-sm mt-5">
-            Enjoy, and see you next year! 💫
+              Enjoy, and see you next year! 💫
             </p>
           </div>
         </div>

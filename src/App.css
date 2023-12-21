@@ -29,3 +29,32 @@ body {
   padding: 0;
   background-color: black;
 }
+
+/* App.css oder eine andere CSS-Datei */
+.nav-link {
+  position: relative;
+  overflow: hidden; /* Wichtig für die Animation der Unterstreichung */
+  transition: color 0.3s; /* Glättet die Farbänderung beim Hovern */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -5px;
+  left: 0;
+  background-color: #acacac; /* Farbe der Unterstreichung */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link:hover {
+  color: #acacac; /* Hellerer Farbton beim Hovern */
+}

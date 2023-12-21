@@ -11,16 +11,16 @@ function Navbar() {
 			<img className="nav-link" src="./logo.gif" alt="Logo" style={{ height: "50px" }} />
 		  </li>
 		  <li className="mx-2">
-			<a href="#playlist" className="nav-link" >Christmas</a>
+			<a href="#playlist" className="nav-link">Christmas</a>
 		  </li>
 		</ul>
 		
-		<ul className="flex items-center text-white flex-1 justify-end">
-		  <li className="mx-2 nav-link">
+		<ul className="flex items-center text-white flex-1 justify-end md:flex-row flex-col">
+		  <li className="mx-2 nav-link md:mb-0 mb-2">
 			<a href="/">EN</a>
 		  </li>
-		  <li>
-			|
+		  <li className="hidden md:block">
+			| {/* Trennstrich sichtbar ab 'md'-Größe */}
 		  </li>
 		  <li className="mx-2 nav-link">
 			<a href="/de">DE</a>

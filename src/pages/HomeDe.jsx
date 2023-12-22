@@ -13,9 +13,9 @@ function HomeDe() {
               und einen super Start ins Jahr 2024!
             </p>
             <p className="font-mono font-normal text-white text-center text-sm mt-5 max-w-2xl mx-auto px-4 lg:px-8">
-              Wir haben drei unserer Lieblings-Weihnachtsplätzchen zum
-              Nachbacken vorbereitet, komplett mit einer perfekt getimten
-              BTA-Playlist, zu der Sie backen können.
+              Wir haben drei unserer liebsten Weihnachtsplätzchen-Rezepte zum
+              Nachbacken vorbereitet. Damit sie im Ofen nicht verbrennen, gibt
+              es die perfekt getimte BTA-Playlist direkt dazu.
             </p>
 
             <p className="font-mono font-normal text-white text-center text-sm mt-5">
